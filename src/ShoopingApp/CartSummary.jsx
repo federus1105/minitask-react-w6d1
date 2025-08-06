@@ -20,7 +20,7 @@ function CartSummary({ cart, onRemove }) {
                 <td>
                   <button
                     onClick={() => onRemove(idx)}
-                    className="bg-red-500 text-white px-2 rounded cursor-pointer my-2"
+                    className="bg-red-700 hover:bg-red-300 text-white px-2 rounded cursor-pointer my-2"
                   >
                     Hapus
                   </button>
