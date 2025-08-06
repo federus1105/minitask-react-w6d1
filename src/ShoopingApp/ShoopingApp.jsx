@@ -17,7 +17,7 @@ function ShoppingApp() {
   };
 
   return (
-    <div className="mx-10 mt-10">
+    <div className="mx-10 mt-11">
       <Product AddToCart={handleAddToCart} />
       <CartSummary cart={cart} onRemove={handleRemoveFromCart} />
     </div>
